@@ -1,10 +1,3 @@
-## PoliLean Reposiotry
-
-This is the official repo for [From Pretraining Data to Language Models to Downstream Tasks: Tracking the Trails of Political Biases Leading to Unfair NLP Models](https://arxiv.org/abs/2305.08283) @ ACL 2023.
-
-### Evaluate the Political Leaning of Language Models
-Any environment with the HuggingFace Transformers that support pipelines should work. You might need to additionally install `selenium` for step 3.
-
 #### Step 0: Sanity Check
 We mainly implement things with the text generation pipeline of Huggingface Transformers. Check out your HuggingFace model compatibility by running:
 ```
