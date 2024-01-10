@@ -37,6 +37,7 @@ There should be a txt file in `score/` with your model name. Each line presents 
 #### Step 3: Get Political Leaning with the Political Compass Test
 Run `python step3_testing.py --model <your_model>`. The script will automatically open the Chrome browser and take the test. The final political leaning will be displayed on the website. Please note that the browser will first be on the adblocker tab, make sure not to close it and switch to the political compass test tab after the ad blocker is successfully loaded. Adapt the path to your adblocker.
 
-### Downstream Tasks
+### Pretraining step
+Use the 'Pretraining.ipynb' to pretrain any LM on a given dataset. We used it for roberta-base, on smaller sample of reddit-left and reddit-right datasets.
 
 
