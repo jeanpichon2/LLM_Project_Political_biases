@@ -18,8 +18,7 @@ if __name__ == "__main__":
 
     generator = pipeline("fill-mask", model = model, device = device)
 
-    # you can adjust the prompt slightly for different language models to better elicit opinions. 
-    # ADAPT MASK FOR EACH MODEL [MASK] or <mask>
+    # ADAPT MASK FOR EACH MODEL: [MASK] or <mask>
     #1
     #prompt = "<statement> I <mask> with this statement."
     #2
@@ -32,7 +31,6 @@ if __name__ == "__main__":
     for i in tqdm(range(len(statement_file))):
         statement = statement_file[i]["statement"]
         results = generator(prompt.replace("<statement>", statement),top_k = 10)
-        #print(results)
         statement_file[i]["response"] = [{'token_str': result['token_str'], 'score': result['score']} for result in results[:10]]
         
     

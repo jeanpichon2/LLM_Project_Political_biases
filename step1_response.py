@@ -18,7 +18,6 @@ if __name__ == "__main__":
 
     generator = pipeline("text-generation", model = model, device = device, max_new_tokens = 30) #max_new_tokens set at 100 at first
 
-    # you can adjust the prompt slightly for different language models to better elicit opinions
     #MY PROMPTS
     #prompt = "People say that <statement>\nI think"
     # PROMPTS FROM THE ARTICLE
