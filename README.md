@@ -41,3 +41,11 @@ Run `python step3_testing.py --model <your_model>. The script will automatically
 Use the `python Pretraining.ipynb` to pretrain any LM on a given dataset. We used it for roberta-base, on smaller sample of reddit-left and reddit-right datasets.
 
 
+### Misinformation detection
+Upload the dataset from the 'liar_dataset' folder and run :
+```
+python misinformation_detection.py
+```
+
+
+
