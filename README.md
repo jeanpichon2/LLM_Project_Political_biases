@@ -42,7 +42,8 @@ Use the `python Pretraining.ipynb` to pretrain any LM on a given dataset. We use
 
 
 ### Misinformation detection
-Upload the dataset from the 'liar_dataset' folder and run : 'python misinformation_detection.py'.
+Upload the datasets from the 'liar_dataset' folder and run : 'python misinformation_detection.py'.
+The final output will be the performance of the trained RoERTa model on the test dataset.
 
 
 
