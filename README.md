@@ -42,10 +42,8 @@ Use the `python Pretraining.ipynb` to pretrain any LM on a given dataset. We use
 
 
 ### Misinformation detection
-Upload the dataset from the 'liar_dataset' folder and run :
-```
-python misinformation_detection.py
-```
+Upload the dataset from the 'liar_dataset' folder and run : 'misinformation_detection.py'.
+
 
 
 
