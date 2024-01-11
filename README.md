@@ -46,5 +46,7 @@ Upload the datasets from the 'liar_dataset' folder and run : 'python misinformat
 The final output will be the performance of the trained RoERTa model on the test dataset.
 
 
-
-
+### Hate speech detection
+You can access the required data for hate speech detection from the following link: [Hate Speech Datasets](https://osf.io/53tfs/)
+To proceed, upload the datasets from both hate_identity_corpora.jsonl and demographic_category_hate_corpora.jsonl.
+The provided code is specifically designed for processing hate_identity_corpora.jsonl. However, since the two datasets share the same structure, you can utilize the same code for demographic_category_hate_corpora.jsonl by simply updating the filename within the code.
